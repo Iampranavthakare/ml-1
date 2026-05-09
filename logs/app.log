@@ -1,0 +1,168 @@
+2026-05-09 23:02:38,564 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+Traceback (most recent call last):
+  File "c:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\backend\training.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+2026-05-09 23:03:07,257 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+Traceback (most recent call last):
+  File "c:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\backend\training.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+2026-05-09 23:03:46,847 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+Traceback (most recent call last):
+  File "c:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\backend\training.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+2026-05-09 23:07:25,472 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+Traceback (most recent call last):
+  File "c:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\backend\training.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+2026-05-09 23:10:46,936 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+Traceback (most recent call last):
+  File "c:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\backend\training.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+2026-05-09 23:11:31,834 | ERROR | Training Script Failed: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
+Traceback (most recent call last):
+  File "c:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\backend\training.py", line 49, in train_model
+    df = pd.read_csv(DATASET_PATH)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\prana\OneDrive\Desktop\ML\Course notes\All Practice Codes\Capstone_project1\myenv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\prana\\OneDrive\\Desktop\\ML\\Course notes\\All Practice Codes\\Capstone_project1\\model_dir\\heart.csv'
